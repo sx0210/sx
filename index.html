@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sx Vendas - Loja Virtual</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        
+        header {
+            background-color: #D32F2F; /* Vermelho */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #B71C1C; /* Vermelho escuro */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .product {
+            background-color: #333333;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product h2 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #BDBDBD;
+        }
+
+        footer {
+            background-color: #D32F2F; /* Vermelho */
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Sx Vendas</h1>
+        <p>O melhor lugar para suas compras online!</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="main-content">
+        <h2>Bem-vindo à nossa loja virtual!</h2>
+        <p>Confira nossos produtos exclusivos abaixo:</p>
+
+        <!-- Produtos -->
+        <div class="product-container">
+            <div class="product">
+                <img src="https://via.placeholder.com/250" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>R$ 99,99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/250" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>R$ 129,99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/250" alt="Produto 3">
+                <h2>Produto 3</h2>
+                <p>R$ 79,99</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Sx Vendas | Todos os direitos reservados</p>
+        <p><a href="https://lojas.com.br" target="_blank">lojas.com.br</a></p>
+    </footer>
+
+</body>
+</html>
